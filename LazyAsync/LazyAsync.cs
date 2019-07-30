@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace S4B.LazyAsyncNET
 {
-    public class LazyAsyncNET
+    public class LazyAsync
     {
         public static LazyAsync<T> Create<T>(
             Func<Task<(T value, DateTime renewAt, DateTime expiresAt)>> eval,
@@ -27,6 +27,4 @@ namespace S4B.LazyAsyncNET
             return new LazyAsync<T>(() => eval().ContinueWith(t => (t.Result, DateTime.UtcNow + renewAge, DateTime.MaxValue), TaskContinuationOptions.ExecuteSynchronously), null, eval.Method.ToString());
         }
     }
-
-    
 }
