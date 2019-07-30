@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>LazyAsync.NET</id>
+        <version>$version$</version>
+        <title>LazyAsync.NET</title>
+        <authors>zhekaby</authors>
+        <owners>zhekaby</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Fast and robust worker for blocking and none-blocking asynchronous operations</description>
+        <projectUrl>https://github.com/zhekaby/LazyAsync.NET</projectUrl>
+    </metadata>
+    <files>
+        <file src="out/AirPoint.Contracts.dll" target="lib/netstandard2.0"/>
+    </files>
+</package>
