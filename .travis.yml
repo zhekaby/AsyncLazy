@@ -8,5 +8,5 @@ deploy:
     skip_cleanup: true
     provider: script
     script: chmod +x ./deploy.sh && ./deploy.sh $NUGET_API_KEY https://api.nuget.org/v3/index.json
-    # on:
-    #     branch: master
+    on:
+        branch: master
