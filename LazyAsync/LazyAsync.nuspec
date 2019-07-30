@@ -9,6 +9,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Fast and robust worker for blocking and none-blocking asynchronous operations</description>
         <projectUrl>https://github.com/zhekaby/LazyAsync.NET</projectUrl>
+        <license type="expression">MIT</license>
     </metadata>
     <files>
         <file src="out/LazyAsync.dll" target="lib/netstandard2.0"/>
