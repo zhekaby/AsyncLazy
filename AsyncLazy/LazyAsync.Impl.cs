@@ -107,7 +107,7 @@ namespace LazyAsync
         {
             try
             {
-                var result = await eval();
+                var result = await eval().ConfigureAwait(false);
 
                 var pending = new Data
                 {
