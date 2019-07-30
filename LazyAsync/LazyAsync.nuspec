@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
     <metadata>
-        <id>LazyAsync.NET</id>
+        <id>S4B.LazyAsyncNET</id>
         <version>$version$</version>
-        <title>LazyAsync.NET</title>
+        <title>LazyAsyncNET</title>
         <authors>zhekaby</authors>
         <owners>zhekaby</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>

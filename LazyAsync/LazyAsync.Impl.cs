@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace LazyAsync
+namespace S4B.LazyAsyncNET
 {
     public class LazyAsync<T>
     {
