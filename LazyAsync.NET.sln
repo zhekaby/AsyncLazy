@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAsync", "AsyncLazy\LazyAsync.csproj", "{89A04E1D-4E38-4B59-AE69-A77A8FF11082}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyAsync", "LazyAsync\LazyAsync.csproj", "{89A04E1D-4E38-4B59-AE69-A77A8FF11082}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
