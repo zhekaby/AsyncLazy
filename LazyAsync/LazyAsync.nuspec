@@ -12,6 +12,6 @@
         <license type="expression">MIT</license>
     </metadata>
     <files>
-        <file src="out/LazyAsync.dll" target="lib/netstandard2.0"/>
+        <file src="out/S4b.LazyAsyncNET.dll" target="lib/netstandard2.0"/>
     </files>
 </package>
