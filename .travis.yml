@@ -8,6 +8,8 @@ deploy:
     skip_cleanup: true
     provider: script
     # script: dotnet nuget push src/KubernetesClient/bin/Release/KubernetesClient.*.nupkg --api-key $NUGET_API_KEY --source  https://api.nuget.org/v3/index.json chmod +x ./deploy.sh && ./deploy.sh $NUGET_API_KEY https://api.nuget.org/v3/index.json
-    script: dotnet pack LazyAsync/LazyAsync.csproj -c Release -o out /p:NuspecFile=LazyAsync.nuspec
+    script: 
+        - dotnet pack LazyAsync/LazyAsync.csproj -c Release -o out /p:NuspecFile=LazyAsync.nuspec
+        - dotnet nuget push LazyAsync/out/LazyAsync.NET.1.0.0.nupkg --api-key $NUGET_API_KEY https://api.nuget.org/v3/index.json
     on:
         branch: feature/nuget
