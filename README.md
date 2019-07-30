@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/zhekaby/LazyAsync.NET.svg?branch=master)](https://travis-ci.org/zhekaby/LazyAsync.NET)
 # LazyAsync.NET (.NET Standatd 2.0)
 Fast and robust worker for blocking and none-blocking asynchronous operations
 ## Examples of usage
