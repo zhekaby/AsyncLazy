@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace LazyAsync
+namespace S4B.LazyAsyncNET
 {
-    public class LazyAsync
+    public class LazyAsyncNET
     {
         public static LazyAsync<T> Create<T>(
             Func<Task<(T value, DateTime renewAt, DateTime expiresAt)>> eval,
