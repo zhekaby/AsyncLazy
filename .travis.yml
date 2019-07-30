@@ -9,4 +9,4 @@ deploy:
     provider: script
     script: chmod +x ./deploy.sh && ./deploy.sh $NUGET_API_KEY 1.0.$TRAVIS_BUILD_NUMBER
     on:
-        branch: feature/nuget
+        branch: master
