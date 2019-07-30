@@ -2,7 +2,7 @@
 <package>
     <metadata>
         <id>LazyAsync.NET</id>
-        <version>$VERSION</version>
+        <version>$version$</version>
         <title>LazyAsync.NET</title>
         <authors>zhekaby</authors>
         <owners>zhekaby</owners>
