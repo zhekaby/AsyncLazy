@@ -3,7 +3,7 @@
 Fast and robust worker for blocking and none-blocking asynchronous operations
 ## Installation
 ```
-Install-Package LazyAsync.NET
+Install-Package S4B.LazyAsyncNET
 ```
 ## Examples of usage
 ### Declaration
